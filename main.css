@@ -274,13 +274,13 @@ html{
     color: #70ffed;
 }
 .limg{
-    /* width:80rem; */
+    width:50rem;
     height:5.5rem;
     background-color: rgb(9, 2, 47);
     border: 0.2rem solid white;
     border-radius: 4rem;
     padding: 0.8rem;
-    margin:0 50rem;
+    margin:auto;
     display: flex;
     justify-content: center;
     align-items: center;
