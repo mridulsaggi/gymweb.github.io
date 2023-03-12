@@ -43,7 +43,7 @@ html{
 }
 .navbar ul{
     margin: 7rem 0rem;
-    padding: 3.3rem 2rem 0rem 3rem;
+    padding: 3.3rem 0rem 0rem 3rem;
 }
 .navbar ul li{
     list-style: none;
@@ -274,13 +274,13 @@ html{
     color: #70ffed;
 }
 .limg{
-    width:50rem;
+    width:80rem;
     height:5.5rem;
     background-color: rgb(9, 2, 47);
     border: 0.2rem solid white;
     border-radius: 4rem;
     padding: 0.8rem;
-    margin:auto;
+    margin:10rem auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,6 +296,27 @@ html{
 img:hover{
     cursor: pointer;
     transform: scale(1.15);
+}
+.linkp a{
+    display: inline-block;
+    text-decoration: none;
+    border:.3rem solid rgb(255, 255, 255);
+    color: aliceblue;
+    border-radius: 5rem;
+    background-color: black;
+    font-size: 1.2rem;
+    margin: 5rem auto 0 auto;
+    width: 18rem;
+    height: 3rem;
+    padding: .5rem;
+    /* transition: tranform .2s; */
+}
+.linkp a:hover{
+    cursor:pointer;
+    /* transform: scale(1.15); */
+    color: black;
+    background-color: aliceblue;
+    border-color: aliceblue;
 }
 /* media queries */
 @media (max-width:1049px){
